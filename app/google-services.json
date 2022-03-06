@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "519832379534",
+    "project_id": "kutako-638dd",
+    "storage_bucket": "kutako-638dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519832379534:android:6cb476d104c8ed97dce9df",
+        "android_client_info": {
+          "package_name": "com.frostdev.kutako"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519832379534-61iq11th8nkusgccbd4m6bpk5a78ugd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frostdev.kutako",
+            "certificate_hash": "bac0e2aeedbe7d337c74b3c2d44ede233c48e471"
+          }
+        },
+        {
+          "client_id": "519832379534-955a9e74g1p44rjcp6f8gs73q1miuqb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuEiAkqTJVcXRIeJP51MjdnD2BLE81KfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519832379534-955a9e74g1p44rjcp6f8gs73q1miuqb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

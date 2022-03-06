@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kutako</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="logintext">Login</string>
+    <string name="regtolog">Does\'t have any account? Register here</string>
+
+    <string-array name="Topics">
+        <item>Select topic  ‣</item>
+        <item>Programming</item>
+        <item>Technology</item>
+        <item>Education</item>
+        <item>Random Question</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_my_questions"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/nav_tech"
+            android:title="Programming"
+            android:icon="@drawable/ic_baseline_settings_ethernet_24"/>
+        <item
+            android:id="@+id/nav_edu"
+            android:title="Technology"
+            android:icon="@drawable/ic_baseline_computer_24"/>
+        <item
+            android:id="@+id/nav_covid"
+            android:title="Education"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item
+            android:id="@+id/nav_free"
+            android:title="Random Question"
+            android:icon="@drawable/ic_baseline_free_breakfast_24"/>
+
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Log out"/>
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_baseline_bug_report_24"
+                android:title="Report Bug"/>
+        </menu>
+
+    </item>
+
+</menu>

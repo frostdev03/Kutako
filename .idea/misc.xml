@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/activity_ask_question.xml" value="0.1125" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/activity_category_selected.xml" value="0.131640625" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/activity_finance.xml" value="0.131640625" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/activity_login.xml" value="0.131640625" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/activity_main.xml" value="0.131640625" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/comments_layout.xml" value="0.131640625" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/nav_header.xml" value="0.131640625" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/layout/questions_retrieved_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/My Program/Kutako/app/src/main/res/menu/post_menu.xml" value="0.131640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
