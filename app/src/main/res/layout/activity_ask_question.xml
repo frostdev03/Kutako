@@ -20,11 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-        android:text="Ask a question"
-        android:textAllCaps="true"
+        android:text="Say something"
         android:textColor="@color/prime_col_dark"
-        android:textSize="25dp"
-        android:textStyle="bold" />
+        android:textSize="25dp"/>
 
     <Spinner
         android:id="@+id/spinner"

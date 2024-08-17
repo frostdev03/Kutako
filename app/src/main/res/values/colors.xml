@@ -7,8 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="prime_col">#5BC0E6</color>
+    <color name="prime_col">#1E232C</color>
     <color name="prime_col_dark">#4A4F58</color>
-    <color name="accent">#F0F0F0</color>
-
+    <color name="accent">#FFFFFF</color>
+    <color name="burning_orange">#FF7240</color>
+    <color name="orange">#FDBF50</color>
 </resources>
