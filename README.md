@@ -15,8 +15,8 @@
 ## Technologies Used
 
 - **Programming Language**: Java
-- **Database**: (Specify your database here, if applicable)
-- **Build Tool**: (Specify the build tool you're using, like Gradle or Maven)
+- **Database**: Firebase 
+- **Build Tool**: Gradle 
 - **Version Control**: Git
 
 ## Getting Started
@@ -24,7 +24,7 @@
 ### Prerequisites
 
 - Java Development Kit (JDK) 8 or higher
-- (Include other prerequisites like a database setup, if any)
+- Firebase API key
 
 ### Installation
 
