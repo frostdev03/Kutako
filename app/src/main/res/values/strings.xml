@@ -9,7 +9,7 @@
     <string name="regtolog">Does\'t have any account? Register here</string>
 
     <string-array name="Topics">
-        <item>Select topic  ‣</item>
+        <item>Select topic</item>
         <item>Programming</item>
         <item>Technology</item>
         <item>Education</item>

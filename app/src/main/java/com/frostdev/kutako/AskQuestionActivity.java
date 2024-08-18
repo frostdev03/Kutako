@@ -42,7 +42,6 @@ import java.util.HashMap;
 
 public class AskQuestionActivity extends AppCompatActivity {
 
-    private Toolbar toolbar;
     private Spinner spinner;
     private EditText edtQuestion;
     private ImageView questtionImage;
@@ -65,10 +64,6 @@ public class AskQuestionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_ask_question);
-
-        toolbar = findViewById(R.id.question_toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Ask a question");
 
         spinner = findViewById(R.id.spinner);
         edtQuestion = findViewById(R.id.question_text);
