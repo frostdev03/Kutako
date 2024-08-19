@@ -15,36 +15,42 @@
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/home_toolbar"
-            android:background="@android:color/transparent"
-            android:elevation="4dp"/>
+            android:background="@color/prime_col"
+            android:elevation="4dp"
+            android:titleTextColor="@color/white"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ProgressBar
+                android:id="@+id/progres_circular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/progres_circular"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_margin="16dp"/>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                app:fabSize="normal"
-                android:layout_gravity="bottom|right"
+                android:layout_gravity="bottom|end"
                 android:src="@drawable/ic_baseline_add_24"
-                android:backgroundTint="@color/prime_col_dark"/>
+                android:backgroundTint="@color/prime_col_dark"
+                app:tint="@android:color/white"
+                app:fabSize="normal"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/rv"/>
+                android:padding="8dp"
+                android:clipToPadding="false"/>
 
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
@@ -57,6 +63,9 @@
         android:background="@color/accent"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu"
-        android:layout_gravity="start"/>
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true">
+
+    </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>
