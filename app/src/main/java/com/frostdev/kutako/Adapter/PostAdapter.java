@@ -147,7 +147,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.viewHolder>{
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-            publisherProfilePhoto = itemView.findViewById(R.id.pulisher_profile_image);
+            publisherProfilePhoto = itemView.findViewById(R.id.publisher_profile_image);
             askedByTextview = itemView.findViewById(R.id.asked_by_textview);
             likes = itemView.findViewById(R.id.txt_like);
             dislikes = itemView.findViewById(R.id.txt_dislike);

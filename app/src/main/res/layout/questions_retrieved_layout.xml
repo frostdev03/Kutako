@@ -17,51 +17,51 @@
         android:orientation="vertical"
         android:layout_margin="10dp">
 
-        <RelativeLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="16dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/publisher_profile_image"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:id="@+id/pulisher_profile_image"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/asked_by_textview"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="3dp"
-                android:layout_toEndOf="@id/pulisher_profile_image"
-                android:gravity="center"
+                android:layout_marginStart="8dp"
                 android:text="Asked by"
                 android:textColor="@color/prime_col"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/publisher_profile_image"
+                app:layout_constraintTop_toTopOf="@id/publisher_profile_image"
+                app:layout_constraintEnd_toStartOf="@id/more"/>
 
             <TextView
                 android:id="@+id/asked_on_textview"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/asked_by_textview"
-                android:layout_marginStart="9dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="100dp"
-                android:layout_toEndOf="@+id/pulisher_profile_image"
-                android:layout_weight="1"
-                android:gravity="left"
+                android:layout_marginStart="8dp"
                 android:text="Nov 01, 2003"
-                android:textSize="10sp" />
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/publisher_profile_image"
+                app:layout_constraintTop_toBottomOf="@id/asked_by_textview"
+                app:layout_constraintEnd_toStartOf="@id/more"/>
 
             <ImageView
                 android:id="@+id/more"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="8dp"
-                android:src="@drawable/ic_more" />
-
-        </RelativeLayout>
+                android:src="@drawable/ic_more"
+                android:contentDescription="More option"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
